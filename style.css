@@ -50,6 +50,10 @@ a:hover{
         width: 100%;
         clear: both;
       }
+.contact-me textarea{
+        width: 100%;
+        clear: both;
+}
 
 #button{
     width: 50%;
