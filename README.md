@@ -4,3 +4,4 @@ This is a task for an internship program for newbies in technology.<br>
 Feel free to aid/review my project.<br>
 Twitter-FlutterWave Post - https://twitter.com/SkyC0der_/status/1164457708713631745?s=20 .<br>
 Lucid Blog Post About my project - https://lucid.blog/emmanuelezenwigbo/post/1566661840.<br>
+Lucid Blog Post about CSS in my project - https://lucid.blog/emmanuelezenwigbo/post/how-css-improved-my-pages-aesthetics-9bb

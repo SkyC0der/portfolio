@@ -4,41 +4,49 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Uchechukwu Emmanuel Ezenwigbo">
 	<meta name="keywords" content="Front-end Web Developer in Edo State">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 	<title>Portfolio - Uchechukwu Emmanuel Ezenwigbo</title>
 </head>
 <body>
+	<div id="header">
 	<header>
-	<hr>
+	<hr><br><br>
 		<!-- A picture of Emmanuel Ezenwigbo -->
-		<img src="https://res.cloudinary.com/skycoder/image/upload/v1566506135/a_y7evkx.jpg" 
-		alt="Uchechukwu Emmanuel Ezenwigbo" width="250" height="250">
-		
+		<img class="clip-me" src="https://res.cloudinary.com/skycoder/image/upload/v1566506135/a_y7evkx.jpg" 
+		alt="Uchechukwu Emmanuel Ezenwigbo">
+		<div class="header-content">
+			<center>
 			<h1>Uchechukwu Emmanuel Ezenwigbo</h1>
 			<!-- Occupation -->
 			<h2>Front-End Developer &amp; Python Ninja</h2> 
 			<!-- Address -->
 			<address>
-
 				Aikhionbare Street,<br>
 				Benin City, Edo State,<br>
 				Nigeria.<br>
 				+(234) 813 670 6031<br>
 				<a href="mailto:emmanuelezenwigbo@gmail.com">emmanuelezenwigbo@gmail.com</a>
 			</address><br><br>
+			</center>
+		</div>
 	<hr>
-</header>
-	
+	</header>
+	</div>
 
 <!-- Skills -->
-	<h3>SKILLS</h3>
+	<div>
+		<h3>SKILLS</h3>
 		<ul>
 				<li> Web Designer.</li>
 				<li> UI/UX.</li>
 				<li> Graphics Designer.</li>
 				<li> Microsoft Office Expert.</li>
 		</ul>
+	</div>
 
 	<!--What I am Learning  -->
+	<div>
 	<h3>STACK</h3>
 		<ul>
 			<li>HTML5
@@ -47,8 +55,9 @@
 			<li>C (Programming Language)</li>
 			<li>Python</li>
 		</ul>
-
+	</div>
 	<!-- Experiences -->
+	<div>
 	<h3>EXPERIENCE</h3>
 	<ul>
 		<li><strong>I.E Commercial Stores LTD, Edo, Nigeria - IT Specialist Intern</strong><br>
@@ -58,8 +67,9 @@
 	I was in charge of sending emails to the company’s clients and managing its Product database.</p>
 	</li>
 	</ul>
-
+	</div>
 	<!-- How I Got To Know What I Know -->
+	<div>
 	<h3>EDUCATION</h3>
 	<ul>
 		<li><strong>ALC 4.0 — ​ ​ALC Learner</strong><br>
@@ -78,17 +88,34 @@
 		<em>(May/June 2018)</em><br>
 		Igbinedion Education Center, Edo State.</li><br>
 	</ul>
+	</div>
 
 	<!-- My Awards and Certifications :) -->
+	<div>
 	<h3>AWARDS</h3>
 	<ul>
 		<li>Google Certified Digital Marketer.</li><br>
 		<li>Microsoft Office 2013/2016 Certification.</li>
 	</ul>
+	</div>
 
 	<!-- Check out my github! -->
+    <div>
 	<h3>CHECK OUT MY GITHUB!</h3>
 	<a href="https://github.com/SkyC0der" target="blank">Emmanuel Ezenwigbo's GitHub Profile</a>
-
+	</div><br><br>
+	<fieldset>
+			<legend><h3>Contact Me</h3></legend>
+	<div class="contact-me">
+		
+		<form action="">
+			<br>Name:<input type="text" name="Name" placeholder="Enter Your Name.." required minlength="4"><br>
+			<br>Email:<input type="email" name="Email" placeholder="Enter Your Email.." required><br>
+			<br>Title:<input type="text" name="Title" placeholder="Title Of Subject.."><br>
+			<br>Message:  <textarea minlength="20" placeholder="Enter Your Message Here.." ></textarea><br><br>
+			<input type="button" name="button" value="Submit" id="button">
+		</form>
+		</fieldset>
+	</div>
 </body>
 </html>
