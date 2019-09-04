@@ -40,3 +40,18 @@ a{
 a:hover{
     color: rgb(197, 5, 5);
 }
+
+.contact-me {
+        width: 500px;
+        clear: both;
+      }
+      
+.contact-me input {
+        width: 100%;
+        clear: both;
+      }
+
+#button{
+    width: 50%;
+    clear: both;
+}
